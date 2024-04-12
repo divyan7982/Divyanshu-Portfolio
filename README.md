@@ -1,33 +1,28 @@
-# Portfolio.
+#Portfolio Website
 
-Welcome to my portfolio project built using ReactJS with a dynamic dark mode toggle feature.
+![image](https://github.com/divyan7982/Divyanshu-Portfolio/assets/131895243/d203806e-ca6a-4e62-af71-107c11f06a49)
 
-## Introduction
+![image](https://github.com/divyan7982/Divyanshu-Portfolio/assets/131895243/2a5544cf-52ca-45c3-a3e0-5f8427aef5d7)
 
-![image](https://github.com/divyan7982/portfolio1/assets/131895243/b459a491-70cf-4d71-85e2-cae20256397d)
+![image](https://github.com/divyan7982/Divyanshu-Portfolio/assets/131895243/335ad44e-c992-4217-96d5-fe4bbd7500e6)
 
-
-This project showcases my skills, projects, and achievements through an interactive portfolio website. The standout feature of this portfolio is the dark mode toggle, providing a seamless user experience in both light and dark environments.
+This repository contains the code for my portfolio website built with ReactJS, showcasing my coding projects and skills.
 
 ## Features
+- **Project Showcase:** Explore various coding projects I've worked on.
+- **Skills Display:** Learn about my skills and expertise in web Development.
+- **Contact:** Reach out to me for collaboration or inquiries.
 
-![image](https://github.com/divyan7982/portfolio1/assets/131895243/ffc79ef5-04d9-4e79-b468-b179a168034f)
-
-
-
-- **Dark Mode Toggle:** Switch between light and dark modes to suit your preference and reduce eye strain during different times of the day.
-
-- **Interactive Design:** Enjoy a user-friendly interface with smooth transitions and animations, enhancing the overall browsing experience.
-
-- **Project Showcase:** Explore a diverse collection of my projects, complete with detailed descriptions, images, and links to their respective repositories or live demos.
-
-- **Skills Highlight:** Browse through my skillset and proficiency levels in various technologies, programming languages, and frameworks.
-
+## Technologies Used
+- ReactJS
+- HTML
+- CSS 
+- JavaScript
 
 ## Usage
+1. Clone the repository: `git clone https://github.com/your-username/Divyanshu-portfolio.git`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm start`
+4. Open `http://localhost:3000` in your web browser to view the website.
 
-1. Once the development server is running, open your web browser and visit `http://localhost:3000` to view the portfolio.
-2. Use the toggle switch to switch between light and dark modes.
-3. Explore the various sections, including projects, skills, and contact information.
-
-Thank you for visiting my portfolio project. I hope you enjoy exploring my work and learning more about me!
+Feel free to fork this repository and customize it to create your own portfolio!
