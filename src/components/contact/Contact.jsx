@@ -1,16 +1,12 @@
 import './contact.css';
 import { useContext, useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
-import { ThemeContext } from '../../context';
 import React from 'react';
 
 const Contact = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false);
-  const theme = useContext(ThemeContext);
-
-  // Check if theme and theme.state are defined before accessing darkMode
-  const darkMode = theme && theme.state ? theme.state.darkMode : false;
+  const [darkMode, setDarkMode] = useState(false); // Define darkMode state
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -49,7 +45,6 @@ const Contact = () => {
               <a
                 id="emailLink"
                 href="mailto:divyanshuchoubey05@gmail.com"
-                style={{ color: darkMode ? 'white' : 'blue' }}
               >
                 divyanshuchoubey05@gmail.com
               </a>
@@ -95,7 +90,7 @@ const Contact = () => {
             />
             <textarea
               style={{
-                backgroundColor: darkMode ? '#333' : 'white', // Change the background color based on dark mode
+                backgroundColor: darkMode ? '#333' : 'white',
                 resize: 'none',
               }}
               rows="5"
