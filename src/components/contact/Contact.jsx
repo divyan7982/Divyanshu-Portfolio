@@ -1,12 +1,11 @@
 import './contact.css';
-import { useContext, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import React from 'react';
 
 const Contact = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false);
-  const [darkMode, setDarkMode] = useState(false); // Define darkMode state
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -68,21 +67,21 @@ const Contact = () => {
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
-              style={{ backgroundColor: darkMode && '#333' }}
+
               type="text"
               placeholder="Name"
               name="user_name"
               required
             />
             <input
-              style={{ backgroundColor: darkMode && '#333' }}
+
               type="text"
               placeholder="Subject"
               name="user_subject"
               required
             />
             <input
-              style={{ backgroundColor: darkMode && '#333' }}
+
               type="text"
               placeholder="Email"
               name="user_email"
@@ -90,7 +89,6 @@ const Contact = () => {
             />
             <textarea
               style={{
-                backgroundColor: darkMode ? '#333' : 'white',
                 resize: 'none',
               }}
               rows="5"
