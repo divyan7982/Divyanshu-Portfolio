@@ -27,8 +27,8 @@ function About() {
           Education & Training
         </h1>
         <span>
-          [B.Tech], [Electronics and Communication Engineering], [Maharaja
-          Agrasen Institute Of Technology], [2021 - 2025]
+          B.Tech, Electronics and Communication Engineering, Maharaja
+          Agrasen Institute Of Technology, 2021 - 2025
         </span>
         <br />
         <br />
@@ -93,18 +93,6 @@ function About() {
           <li>Selected as an Open Source Contributor In SWOC 2023</li>
           <li>Made Quality Contributions in Hacktoberfest 2022, 2023</li>
         </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Mission Statement
-        </h1>
-        <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative software solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
-        </p>
       </div>
     </div>
   );

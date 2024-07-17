@@ -23,7 +23,7 @@ function Footer() {
               <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/divyan7928/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn size={24} />
               </a>
             </div>
