@@ -27,8 +27,8 @@ function About() {
           Education & Training
         </h1>
         <span>
-          B.Tech, Electronics and Communication Engineering, Maharaja
-          Agrasen Institute Of Technology, 2021 - 2025
+          B.Tech, Electronics and Communication Engineering, Maharaja Agrasen
+          Institute Of Technology, 2021 - 2025
         </span>
         <br />
         <br />
@@ -71,17 +71,19 @@ function About() {
           <b>
             <h>Software Developer Intern</h>
           </b>
-          <h2>Prodigy Infotech, JULY 2024</h2>
+          <h2>Blustock Fintech, JULY 2024 - AUG 2024</h2>
           <p>
-            During my internship at Prodigy Infotech, I developed a robust
-            backtracking algorithm for real-time Sudoku solutions, enhancing
-            efficiency and accuracy in solving puzzles. I also created a
-            sophisticated contact management system, implementing advanced CRUD
-            operations and optimized search functionalities for seamless user
-            experience. Additionally, I engineered a web scraping tool to
-            extract valuable data from various websites and developed an
-            interactive guessing game with intuitive logic, providing engaging
-            and user-friendly gameplay.
+            During my internship at Bluestock Fintech, I collaborated with a
+            team of five to develop three impactful projects that demonstrated
+            our collective expertise in full-stack development and data
+            management. Together, we built a Crypto Dashboard using ReactJS,
+            integrating real-time cryptocurrency data through the CoinGecko API
+            and visualizing trends with Chart.js. We also developed a MERN
+            Finance Tracker that enables users to securely track and categorize
+            their expenses, offering detailed financial insights. Additionally,
+            we created a Web Scraping Project that automates the extraction,
+            cleaning, and processing of data from various websites, showcasing
+            our ability to manage and utilize data effectively
           </p>
         </span>
         <br />
