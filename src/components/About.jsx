@@ -10,7 +10,7 @@ function About() {
         <div className="flex items-center justify-between">
           <h1 className="text-3xl font-bold mb-5">About</h1>
           <a
-            href="./Resume.pdf"
+            href="/Resume.pdf"
             download="Divyanshu_Choubey_Resume.pdf"
             className="bg-green-600 text-white px-4 py-2 rounded"
           >
